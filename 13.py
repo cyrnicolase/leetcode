@@ -45,6 +45,8 @@ class Solution(object):
         """
         :type s: str
         :rtype: int
+
+        使用贪婪匹配的方式,一直找到最大的匹配串,并作为值返回
         """
 
         unit = ''
